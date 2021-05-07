@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0);
   return (
     <div className="App">
-      <auro-button onClick={() => {setCount(count + 1)}}>Hello Auro</auro-button>
+      <auro-button onClick={() => {setCount(count + 1)}}>Increment</auro-button>
       <p>Count: {count}</p>
     </div>
   );
